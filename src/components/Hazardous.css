@@ -1,0 +1,40 @@
+.hazardous {
+  display: inherit;
+  flex-direction: column;
+  gap: 15px;
+  border: none;
+  padding: 30px;
+  border-radius: 20px;
+  outline: 2px solid rgb(215, 215, 215);
+  background: linear-gradient(to right, rgb(237, 237, 237), rgb(236, 236, 236));
+}
+.heading3 {
+  color: rgba(97, 97, 97, 1);
+  background-color: rgba(180, 179, 179, 1);
+  padding: 5px 10px;
+  border: solid rgba(97, 97, 97, 1);
+  border-radius: 10px;
+  text-align: center;
+  max-width: 220px;
+  line-height: 15px;
+}
+
+.value3 {
+  color: rgb(76, 76, 76);
+  font-size: 100px;
+  line-height: 100px;
+  padding-bottom: 15px;
+}
+
+.name3 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.name3 span {
+  padding-left: 5px;
+  max-width: 205px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,36 @@
+.left {
+  display: inherit;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.heading1 {
+  color: rgb(206 110 0);
+  background-color: rgb(255 211 169);
+  padding: 5px 10px;
+  border: solid rgba(206, 110, 0, 0.6);
+  border-radius: 10px;
+  text-align: center;
+  max-width: 100px;
+  line-height: 15px;
+}
+
+.value1 {
+  color: rgb(206 110 0);
+  font-size: 100px;
+  line-height: 100px;
+
+  padding-bottom: 15px;
+}
+
+.name {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.update {
+  min-width: 260px;
+  color: rgb(194, 175, 175);
+  font-style: italic;
+}

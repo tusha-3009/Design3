@@ -1,0 +1,21 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  min-width: 220px;
+}
+
+img {
+  float: right;
+  outline: 2px solid orange;
+  height: 175px;
+  width: 175px;
+  border-radius: 50%;
+}
+.name1 {
+  display: flex;
+}
+.name1 span {
+  padding-right: 5px;
+}
